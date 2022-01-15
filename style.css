@@ -15,6 +15,30 @@ main{
     font-size: 30px;
 }
 /* nab bar end */
+/* first part start */
+.first-div{
+    display: flex;
+}
+.detail-div{
+    width: 90%;
+    margin-right: 20px;
+}
+.detail-button{
+    background-color: crimson;
+    border: 1px solid crimson;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    font-size: 25px;
+}
+.detail-img{
+    width: 40%;
+}
+.top-banar{
+    font-weight: 700;
+    font-size: 50px;
+}
+/* first part end  */
 .container{
     background-color: #ffff;
     width: 870px;
