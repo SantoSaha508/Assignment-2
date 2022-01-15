@@ -1,0 +1,81 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* main div  */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* nab bar start */
+.nav-bar{
+    font-weight: 700;
+    font-size: 30px;
+}
+/* nab bar end */
+.container{
+    background-color: #ffff;
+    width: 870px;
+    padding: 33px;
+    margin-top: 21px;
+}
+.section-title{
+    text-align: center;
+    color: rgb(59, 59, 245);
+    font-size: 24px;
+    margin-top: 3px;
+}
+/* second section  */
+.coureses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    box-shadow: 5px 10px rgba(190, 32, 32, 0.1);
+    
+    border-radius: 15px;
+    padding: 5px;
+    margin: 20px;
+}
+.course-banar img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.filled{
+    color: rgb(248, 205, 15);
+}
+.fa-star.empty{
+    color: gray;
+}
+.last-button{
+    text-align: right;
+}
+.last-button>button{
+    background-color: white;
+    color: crimson;
+    padding: 10px 25px;
+    border: 1px solid white;
+    margin-right: 290px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+/* footer section  */
+.footer-section{
+    background-color: rgb(10, 10, 37);
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.font-awesome>i{
+    padding: 5px 8px;
+}
